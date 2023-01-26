@@ -355,10 +355,11 @@ p, small{
 
 /*BTN-Mensaje*/
 .d3 .btn-content{
-	padding-top: 24px;
-	padding-bottom: 24px;
-	padding-left: 80px;
-	padding-right: 80px;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 9px;
+    padding-right: 12px;
 	box-shadow:
 			inset 0 -3em 3em rgba(0,0,0,0.1),
 			0 0  0 2px rgb(99, 236, 188),
@@ -366,6 +367,7 @@ p, small{
 	color: #000924;
 }
 .btn-content .icon{
+    align-self: center;
 	width: 32px;
 }
 
@@ -378,6 +380,7 @@ p, small{
 }
 
 .btn-content .enviar{
+    margin-right: 20px;
     border: none;
     background-color: transparent;
 }
@@ -391,7 +394,7 @@ p, small{
 	background-color: lightgray;
 	outline-color: #00c8bb;
 	border-radius: 16px;
-	margin-right: 50px;
+	margin-right: 15px;
 
 }
 
@@ -437,6 +440,83 @@ p, small{
 		height: 100%;
 		overflow-x: auto;
 	}
+    .pd-head .d1-1{
+        margin-right: 6px;
+    }
+    .d3-1-message .reverse{
+        background-color: #00c8bb;
+        color: black;
+        padding: 24px;
+        width: 210px;
+        border-radius: 24px;
+        box-shadow: 0 5px 10px #000924;
+        border-bottom-right-radius: 0px;
+        margin-bottom: 14px;
+        font-weight: 900;
+    }
+    .d3-1-message .d3-2-message{
+        background-color: white;
+        padding: 24px;
+        width: 210px;
+        border-radius: 24px;
+        border-bottom-left-radius: 0px;
+        box-shadow: 0 5px 10px #000924;
+        margin-bottom: 14px;
+    }
+    .section1 .d3 .d3-head{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 60px;
+        padding-right: 80px;
+        border-bottom: 1px;
+        box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(99, 236, 188),
+            0.3em 0.3em 1em rgb(0, 9, 36);
+        color: #000924;
+    }
+    .dp-head{
+        /*flex-direction: column;*/
+        align-self: center;
+    }
+    .d3-head .d3-2-head{
+        display: flex;
+        height: 100%;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .d3 .d3-messages{
+        height: 76%;
+        overflow: auto;
+        padding-right: 10px;
+        padding-left: 5px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom-width: 1px;
+    }
+    .pd-head .d3-1-head{
+        width: max-content;
+        align-self: center;
+    }
+    .d3 .btn-content{
+        display: flex;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 9px;
+        padding-right: 12px;
+    }
+    .btn-content .icon{
+        width: 39px;
+        align-self: center;
+    }
+    .btn-content .input1{
+        width: 84%;
+        margin-right: 5px;
+    }
+    .lm{
+        height: 66%;
+    }
+
 }
 
 @media (max-width: 390px) {
