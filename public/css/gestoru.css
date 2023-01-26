@@ -168,7 +168,7 @@ p, small{
 /* Lista de mensajes */
 .lm{
 	overflow: auto;
-	height: 80%;
+	height: 73%;
 	padding-top: 16px;
 	padding-bottom: 16px;
 }
