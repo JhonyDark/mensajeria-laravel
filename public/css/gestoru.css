@@ -242,6 +242,7 @@ p, small{
 
 .p1-head{
 	font-weight: 500;
+    margin: 0px;
 }
 
 .section1 .pd-head{
@@ -374,6 +375,11 @@ p, small{
 
 .btn-content .icon-e:hover{
 	color: #00c8bb;
+}
+
+.btn-content .enviar{
+    border: none;
+    background-color: transparent;
 }
 
 .btn-content .input1{

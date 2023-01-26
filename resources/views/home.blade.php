@@ -34,15 +34,18 @@
         <img src="img/Gestoru-Logo-Negativo-Iso-Color.png" class="img2" alt="logo de gestoru">
         <!-- 			Usuarios horizontal -->
         <div class="dp">
+            @foreach($users as $user)
             <div class="d2">
                 <div class="d1-1">
                     <img src="img/juan.png" class="img1" alt="imagen de usuario">
                     <div class="d1-2"></div>
                 </div>
-                <small class="small-uh">Juan</small>
+                <small class="small-uh">{{$user->name}}</small>
             </div>
-            <!-- 				end Usuarios -->
+            @endforeach
         </div>
+        <!-- 				end Usuarios -->
+
         <!-- 			lista de mensajes -->
         <div class="lm">
             <div class="d1-l">
@@ -237,8 +240,5 @@
         </div>
     </div>
 </section>
-
-
 </body>
-
 </html>
